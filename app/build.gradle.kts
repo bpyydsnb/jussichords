@@ -194,4 +194,9 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    
+    // ==========================================
+    // 下面这行是新增的，用于 iOS 液态玻璃特效
+    implementation("io.github.kyant0:backdrop:1.0.2")
+    // ==========================================
 }
